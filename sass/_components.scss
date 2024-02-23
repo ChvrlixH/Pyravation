@@ -3,6 +3,7 @@
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
+  cursor: pointer;
 }
 
 //--------------------SEARCH--------------------//
@@ -412,7 +413,6 @@
     background-size: cover;
 
     @supports (mask-image: url()) or (-webkit-mask-image: url()) {
-     
       //NEW BROWSERS
       mask-image: url(../img/chevron-thin-right.svg);
       -webkit-mask-image: url(../img/chevron-thin-right.svg);
